@@ -1,0 +1,16 @@
+<div class="cockpit">
+  <h1>Enter server details</h1>
+  <div class="server-name">
+    <label for="name">Server Name</label>
+    <input type="text" id="server-name" [(ngModel)]="serverName" />
+    <p>{{serverName}}</p>
+  </div>
+  <div class="server-content">
+    <label for="content">Server Content</label>
+    <input type="text" id="server-content" [(ngModel)]="serverContent" />
+    <p>{{serverContent}}</p>
+  </div>
+  <div class="button">
+    <button type="button" (click)="onAddServerElement()">Add Server</button>
+  </div>
+</div>

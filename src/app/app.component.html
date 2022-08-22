@@ -1,0 +1,5 @@
+<app-cockpit (evt)="onServerElementAdded($event)"></app-cockpit>
+<hr />
+<div class="server-elements" *ngFor="let elem of  serverElements">
+  <app-server-element [serverElement]="elem"></app-server-element>
+</div>

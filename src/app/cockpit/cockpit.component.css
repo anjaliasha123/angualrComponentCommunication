@@ -1,0 +1,10 @@
+.server-name,
+.server-content {
+  display: block;
+  margin: 20px 0;
+}
+
+label,
+input {
+  display: block;
+}
